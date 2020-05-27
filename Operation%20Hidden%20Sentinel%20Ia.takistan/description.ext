@@ -1,0 +1,34 @@
+respawnOnStart = -1;
+
+#include "cfgMRH_SoldierTabIntelPictures.hpp"
+#include "cfgMRH_SoldierTabData.hpp"
+
+class ACEX_Fortify_Presets {
+    class ASO_Fortify_Objects {
+        objects[] = {
+            {"Land_BagFence_Round_F", 0},
+            {"Land_BagFence_Short_F", 0},
+            {"Land_BagFence_Long_F", 0},
+            {"Land_Plank_01_4m_F", 0},
+            {"Land_BagBunker_Small_F", 0},
+            {"Land_HBarrierTower_F", 0},
+            {"Land_HBarrierWall4_F", 0},
+            {"Land_HBarrierWall_corner_F", 0},
+            {"Land_HBarrier_1_F", 0},
+            {"Land_BagBunker_Tower_F", 0},
+            {"Land_BagBunker_Large_F", 0},
+            {"Land_Cargo_Patrol_V1_F", 0},
+            {"Land_TentLamp_01_standing_red_F", 0}
+        };
+    };
+};
+
+class CfgLeaflets
+{
+	class Custom_01 // Configuration for 1Rnd_Leaflets_West_F
+	{
+		text = "Citizens of Timurkalay, your brothers need you in the holy war against the infidels.  Rise up and fight in the name of Allah"; // Text shown when previewing the leaflet full-screen. Ideally should be localized, so even player who cannot read the image can get the information
+		texture = "images\alqaeda-isis.paa"; // Leaflet texture shown when previewing the leaflet full-screen
+	
+	}
+};
