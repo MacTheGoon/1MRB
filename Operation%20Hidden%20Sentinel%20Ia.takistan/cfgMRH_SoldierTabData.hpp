@@ -66,16 +66,22 @@ class MRH_SoldierTabData
 
 	class dataEntry2
 	{
-	title = "Call to arms";
-	text = "Email to neighborhood leaders";
+	title = "Email correspondence";
+	text = "";
 		class subEntry1
 		{
-		titleSub = "For Allah";
-		textSub = "BROTHERS!! We call on you to pick arms against the infidels and beat them back like the dogs they are.  Any citizen that provides good information on the whereabouts of US elements will be handsomly rewarded";
+		titleSub = "Faysal Ahmad Bin Ali al-Zahrani";
+		textSub = "Emails discussing financial status of the cells within takistan.  Funding is stable, and they seem to be trying to raise funds from the local populus";
 		};
-
-
+		
+		class subEntry2
+		{
+		titleSub = "Ni’ma Abd Nayef al-Jabouri";
+		textSub = "Emails with al-Jabouri discussing the procurement of arms for active cells within the region.  al-Jabouri seems to have some stature in the military circles.";
+		};
+	
 	};
 	
 	
 };
+

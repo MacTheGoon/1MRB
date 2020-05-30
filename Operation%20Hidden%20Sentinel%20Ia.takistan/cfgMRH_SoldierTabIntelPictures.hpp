@@ -23,8 +23,8 @@ class MRH_SoldierTabIntelPictures
 
 		class pic2
 	{
-	captionText = "ISIS Recruitment Flyer";
-	picture = "intel\alqaeda-isis.jpg";
+	captionText = "Check files for detailed read out";
+	picture = "intel\emails.jpg";
 	};
 		
 };
